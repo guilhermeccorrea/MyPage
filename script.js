@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   let observer = new IntersectionObserver(beTouching, options);
   document.querySelectorAll('main section').forEach(section => {
-    observer.observe(section)
+    observer.observe(section);
   })
 })
 
